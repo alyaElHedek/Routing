@@ -1,0 +1,22 @@
+h2{
+    color: var(--navBg);
+}
+img{
+    overflow: hidden;
+}
+section{
+    padding-top: 100px;
+}
+.itemLayer {
+    background-color:var(--mainColor);
+    opacity: 0;
+    cursor: pointer;
+    transition: .8s opacity;
+
+}
+.itemLayer:hover {
+    opacity: var(--opacity);
+}
+.modalImg{
+    width: 40%;
+}

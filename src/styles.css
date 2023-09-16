@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --navBg: #2C3E50;
+    --footerBg: #1A252F;
+    --mainColor: #1ABC9C;
+    --opacity:80%;
+
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-weight:400 ;
+    font-size:16px; 
+    color: white;
+}
+
+.activeLink{
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}
+

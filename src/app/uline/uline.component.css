@@ -1,0 +1,47 @@
+
+
+.line{
+    width: 85px;
+    height: 4px;
+    background-color:white;  
+
+}
+.star{
+    width: fit-content;
+}
+.row{
+    width: 20%;
+}
+
+
+@media (max-width: 1399.98px) { }
+
+@media (max-width: 1199.98px) { 
+    .row{
+    width: 30%;
+} }
+
+@media (max-width: 991.98px) {
+    .row{
+        width: 40%;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    .row{
+        width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .row{
+        width: 50%;
+    }
+ }
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+.navbar-brand{
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+
+}
+.nav-link{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+
+}
+.navbar{
+    background-color: var(--navBg);
+}
+
+
+@media (max-width: 1399.98px) { }
+
+@media (max-width: 1199.98px) { 
+    .activeLink{
+        width: fit-content;
+        padding: 10px;
+     }
+}
+
+@media (max-width: 991.98px) {
+    .activeLink{
+        width: fit-content;
+        padding: 10px;
+     }
+ }
+
+@media (max-width: 767.98px) { 
+    .activeLink{
+        width: fit-content;
+        padding: 10px;
+     }
+}
+
+@media (max-width: 575.98px) {
+    .activeLink{
+       width: fit-content;
+       padding: 10px;
+    }
+ }

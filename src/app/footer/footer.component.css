@@ -1,0 +1,35 @@
+
+.upper{
+    background-color: var(--navBg);
+}
+.lower{
+    background-color: var(--footerBg);
+    text-align: center;
+}
+
+h3{
+    font-weight:500 ;
+    font-size:28px;
+}
+
+
+.icon{
+    border: solid white .5px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+
+
+@media (max-width: 767.98px) { 
+    .col-md-4{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .col-md-4{
+        margin-bottom: 30px;
+    }
+ }
